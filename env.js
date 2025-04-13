@@ -28,12 +28,12 @@ const envs = {
     APP_CLIENT_ID: "e5cd7e4891bf95d1d19206ce24a7b32e",
   },
   production: {
-    DOMAIN: "http://plat.trytowish.cn",
+    DOMAIN: "https://chargetest.i51c.com:18443/",
     BASE_URL: "./", // 路由基础路径
-    BASE_API: "http://plat.trytowish.cn/prod-api",
-    SYSTEM_API: "http://plat.trytowish.cn/prod-api", // 接口基础路径/nginx接口转发路径
-    BASE_FACILITY_API: "http://plat.trytowish.cn/prod-api", // 基础设施运营平台的api
-    WxAppConnectorLink: "http://plat.trytowish.cn/c?n=", // 企业微信设置页面路由name
+    BASE_API: "https://chargetest.i51c.com:18443/prod-api",
+    SYSTEM_API: "https://chargetest.i51c.com:18443/prod-api", // 接口基础路径/nginx接口转发路径
+    BASE_FACILITY_API: "https://chargetest.i51c.com:18443/prod-api", // 基础设施运营平台的api
+    WxAppConnectorLink: "https://chargetest.i51c.com:18443/c?n=", // 企业微信设置页面路由name
     _ISGZIP: false, // 是否开启gzip压缩
     _ISCDN: false, // 是否开启cdn加速
     APP_RSA_PUBLIC_KEY: "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKoR8mX0rGKLqzcWmOzbfj64K8ZIgOdHnzkXSOVOZbFu/TJhZ7rFAN+eaGkl3C4buccQd/EjEsj9ir7ijT7h96MCAwEAAQ==",
